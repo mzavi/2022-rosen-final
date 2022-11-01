@@ -1,0 +1,13 @@
+# Preproposal
+
+## What idea(s) do you have for your final project?
+
+- Program to show info about a candidate for the election. Manay gen z don't know what candidates stand for what, so creating a small program that lets them choose a name and see what they stand for would be helpful
+
+## If you plan to collaborate with one or two classmates, what are their names?
+
+- as of now, none
+
+## Do you have any questions of your own?
+
+- can you create an application with interface with python? Would that be out of reach for this class? Otherwise, i would keep it as a python file that you run in visual studio code.
