@@ -2,7 +2,9 @@
 
 ## What idea(s) do you have for your final project?
 
-- Program to show info about a candidate for the election. Manay gen z don't know what candidates stand for what, so creating a small program that lets them choose a name and see what they stand for would be helpful
+- Website to show info about a candidate for the election. Many gen z don't know what candidates stand for what, so creating a small website, marketed towards gen z that lets them choose a name and see what they stand for would be helpful
+- Stock Market predictor
+- something with data/dabases?
 
 ## If you plan to collaborate with one or two classmates, what are their names?
 
