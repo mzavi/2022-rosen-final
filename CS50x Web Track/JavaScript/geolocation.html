@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+
+<html lang="eng">
+    <head>
+        <title>
+            geolocation.html
+        </title>
+    </head>
+    <body>
+        <script>
+            navigator.geolocation.getCurrentPosition(function(position)
+            {
+                document.write(position.coords.latitude + ", " + position.coords.longitude);
+            });
+        </script>
+    </body>
+
+</html>

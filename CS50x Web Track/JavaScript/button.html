@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+
+<html lang="eng">
+    <head>
+        <title>
+            This is metadata, the top of the tab, stored in the header
+        </title>
+        <script>
+            function greet()
+            {
+                let name = document.querySelector('#name').value;
+                if (name === '')
+                {
+                    name = 'world';
+                }
+                //alert('Hello ' + name + ", Andy");
+                document.querySelector("#section").innerHTML = "Wassup " + name + " Andy.";
+            };
+        </script>
+    </head>
+    <body>
+        <form onsubmit="greet(); return False">
+            <input type="text" id="name">
+            <input type="submit">
+        </form>
+        <div id="section">
+            Wassup bro.
+        </div>
+    </body>
+
+</html>

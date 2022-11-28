@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+
+<html lang="eng">
+    <head>
+        <title>
+            Counter.html
+        </title>
+        <script>
+
+            let count = 0;
+            function increment()
+            {
+                count++;
+                document.querySelector('#section').innerHTML = count;
+            }
+        </script>
+    </head>
+    <body>
+        <form onsubmit="increment(); return false">
+            <input type="submit">
+        </form>
+        <div id="section">
+            0
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+
+<html lang="eng">
+    <head>
+        <title>
+            buttone functions.html
+        </title>
+        <!-- IF I PUT SCRIPT HERE, I GET ERROR BECAUSE JAWN READS IT FROM TOP TO BOTTOM AND BUTTONS AREN'T IDENTIFIED YET -->
+    </head>
+    <body>
+        <p id="sometext">Happy birthday McKenzie, you're finally 22.</p>
+        <select>
+            <option value="large">Large Text</option>
+            <option value="initial" selected>Medium Text</option>
+            <option value="small">Small Text</option>
+        </select>
+
+        <script>
+            document.querySelector('select').onchange = function() {
+                document.querySelector('#sometext').style.fontSize = this.value;
+            }
+        </script>
+    </body>
+
+</html>
