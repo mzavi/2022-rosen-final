@@ -2,15 +2,15 @@
 
 #### Your name
 
-TODO
+Michael Zavinouski
 
 #### Your section leader's name
 
-TODO
+Zhengkang Fan 
 
 #### Project title
 
-TODO
+Cs50x Web Track
 
 ***
 
@@ -18,12 +18,12 @@ Short answers for the below questions suffice. If you want to alter your plan fo
 
 #### What have you done for your project so far?
 
-TODO
+Finished all the lectures upto and including Homepage, currently working on the homepage.
 
 #### What have you not done for your project yet?
 
-TODO
+Still need to complete homepage, lectures after Homepage and need to complete Stonks project.
 
 #### What problems, if any, have you encountered?
 
-TODO
+Figuring out how to have aesthetic buttons on the top of my page. Also aligning the elements of the page so there's space on the sides for readability. Most websites don't use the full length of the screen for aesthetic purposes.
