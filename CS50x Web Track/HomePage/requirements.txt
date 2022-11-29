@@ -1,0 +1,5 @@
+a) 4 pages including index.html
+b) 5 CSS editing code jawns
+	b1) 5 different CSS properties (fontsize, background color, etc.)
+	b2) 1 bootstrap component
+c) use javascript

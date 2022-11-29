@@ -1,0 +1,29 @@
+body
+{
+    padding-left:15%;
+    font-family:Camphor, Open Sans, Segoe UI, sans-serif;
+    background-color: whitesmoke;
+    text-align: center;
+    width: 70%;
+}
+
+.top
+{
+    text-align:right;
+    padding-right: 0px;
+    padding-left:50px;
+    font-size: large;
+    color: black;
+    font-weight: 600;
+
+}
+
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }

@@ -14,7 +14,8 @@
         <button id="blue">B</button>
 
         <script>
-            document.querySelector('#red').onclick = function() {
+           
+           document.querySelector('#red').onclick = function() {
                 document.querySelector('body').style.backgroundColor = "red";
             }
 
@@ -25,7 +26,8 @@
             document.querySelector('#blue').onclick = function() {
                 document.querySelector('body').style.backgroundColor = "blue";
             }
-
+ ///Instead of calling "document.querySelector('body')" 3 times, I could set it to a variable. 
+ /// let body = document.querySelector('body')
 
         </script>
 
