@@ -4,23 +4,24 @@
     <head>
         <title>Homepage</title>
         <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
 
     </head>
 
     <body>
-        <table style="text-align:center;">
+        <table style="text-align:center; border-collapse:collapse;">
             <tr class="top">
                 <td class="top" style="font-weight:675;padding-left: 0px;">Home</td>
-                <td class="top"><a href="gratitude.html">Gratitude</a></td>
-                <td class="top"><a href="beingkind.html">Being Kind</a></td>
-                <td class="top"><a href="mindfulness.html">Mindfulness</a></td>
-                <td class="top"><a href="dailyhabits.html">Daily Habits</a></td>
+                <td class="top"><a class="button" href="gratitude.html">Gratitude</a></td>
+                <td class="top"><a class="button" href="beingkind.html">Being Kind</a></td>
+                <td class="top"><a class="button" href="mindfulness.html">Mindfulness</a></td>
+                <td class="top"><a class="button" href="dailyhabits.html">Daily Habits</a></td>
             </tr>
         </table>
         <p> </p>
         <h1>Self Improvement for Young Men</h1>
         <h2>(Mental Health Focused Edition)</h2>
-        <h4>Before you being reading, take this test:<a href="mentalhealthlink.jawn">Simple Mental Health Test</a></h4>
+        <h4>Before you begin reading, take this test:  <a href="https://www.nhs.uk/mental-health/self-help/guides-tools-and-activities/depression-anxiety-self-assessment-quiz/">Simple Mental Health Test</a></h4>
         <h3 class="center">What is self improvement?</h3>
         <p class="center">Self improvement is the process of improving yourself. This comes down to your habits, your day-to-day life, mindset and fulfillment of life.
              You could think of it as "leveling up" all of your skills whether that be social skills, discipline, happiness,
@@ -32,22 +33,26 @@
             video games, fast food and social media. This makes us men less motivated to do hard work, less motivated to step
             out into the real world and grow some thick skin, leads to less confidence within ourselves, and therefore less friends,
             less romantic partners, and a less fulfilling life. This may sound like an extremist theory, but it is backed by science
-            thanks to the in-depth research available on dopamine.
+            thanks to the in-depth research available on <a href="https://www.nih.gov/news-events/nih-research-matters/dopamine-affects-how-brain-decides-whether-goal-worth-effort">dopamine.</a>
         </p>
 
 
         <h2>Sections</h2>
 
-        <h3> <a href="gratitude.html">Gratitude Journaling</a></h3>
-        <h3> <a href="beingkind.html">Being Kind</a></h3>
-        <h3> <a href="mindfulness.html">Mindfulness</a></h3>
-        <h3> <a href="dailyhabits.html">Daily Habits</a></h3>
+        <h3> <a class="button" href="gratitude.html">Gratitude Journaling</a></h3>
+        <h3> <a class="button" href="beingkind.html">Being Kind</a></h3>
+        <h3> <a class="button" href="mindfulness.html">Mindfulness</a></h3>
+        <h3> <a class="button" href="dailyhabits.html">Daily Habits</a></h3>
 
 
         <h2>Random Habit Generator</h2>
-        <form onsubmit="return false">
+        <form onsubmit="randomGenerator(); return false">
             <input type="submit" value="Generate">
+            <!-- <input id="gen" type="text"> !-->
         </form>
+        <div id="gen">
+            Habit Here
+        </div>
 
     </body>
 </html>
